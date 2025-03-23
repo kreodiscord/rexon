@@ -40,7 +40,7 @@ client.once('ready', async () => {
     // Register slash commands for all guilds the bot is in
     for (const guild of client.guilds.cache.values()) {
         try {
-            await guild.commands.set(client.slashCommands.map(cmd => cmd.data)); // Registering commands
+            await guild.commands.set(client.slashCommands.map(cmd => cmd.data)); 
             console.log(`Slash commands registered for ${guild.name}`);
         } catch (error) {
             console.error(`Error registering slash commands for ${guild.name}:`, error);
@@ -588,7 +588,7 @@ client.on('interactionCreate', async (interaction) => {
             await interaction.reply({
                 embeds: [reportPolicyEmbed],
                 components: [row],
-                ephemeral: true, // Send the reply as ephemeral
+                ephemeral: true, 
             });
         }
 
@@ -608,7 +608,7 @@ client.on('interactionCreate', async (interaction) => {
             await interaction.reply({
                 embeds: [vouchPolicyEmbed],
                 components: [row],
-                ephemeral: true, // Send the reply as ephemeral
+                ephemeral: true, 
             });
 
         }
