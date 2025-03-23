@@ -12,7 +12,12 @@ Rexon is the ultimate open-source Discord bot designed specifically for trading 
 - and more...
 ```
 ## Installation
-
+```
+- Fill config.json
+- npm install
+- node deploy.js
+- node index.js
+```
 If you decide to edit, compile or use this code in any way. Kindly respect the [`LICENSE`](LICENSE).
 
 
