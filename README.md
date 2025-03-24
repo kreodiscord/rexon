@@ -1,5 +1,4 @@
-![Language](https://img.shields.io/badge/lang-Javascript%203.8-green)
-![discord.js Version]([https://img.shields.io/badge/lib-discord.js%202.0-blue](https://discordjs.guide/meta-image.png))
+[Discord.js v14+](https://discordjs.guide/meta-image.png)
 
 ## Rexon - The Ultimate Vouch Management Discord Bot
 
