@@ -1,7 +1,5 @@
-[Discord.js v14+](https://discordjs.guide/meta-image.png)
 
 ## Rexon - The Ultimate Vouch Management Discord Bot
-
 
 Rexon is the ultimate open-source Discord bot designed specifically for trading servers. Our goal is to provide a bot which can store vouches and maintain trustworthyness in the community.
 > The source here is only for educational and private use.
